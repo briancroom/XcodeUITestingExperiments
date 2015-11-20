@@ -1,0 +1,4 @@
+module AppleSystemLog [system] {
+    header "/usr/include/asl.h"
+    export *
+}

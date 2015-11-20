@@ -7,6 +7,8 @@ Although there are strong advantages to black-box testing, there are some scenar
 
 ## The Experiments
 
+Swift ports of each experiment are available in the `Swift` directory.
+
 ### NetworkStubbingExperiment
 Many apps depend on communicating with an external web service of some sort for storing and retrieving data. When writing automated tests for such an app, there can be significant downsides to having the app communicate with the live web server:
 
